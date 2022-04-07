@@ -46,7 +46,10 @@ function HeroPage() {
           <h3>
             portfol<span className="prim-color">io</span>
           </h3>
-          <div className="menu-btn" onClick={() => ShowMenu()}>
+          <div
+            className={menu ? "menu-btn" : "menu-btn-open"}
+            onClick={() => ShowMenu()}
+          >
             <div />
             <div />
             <div />
