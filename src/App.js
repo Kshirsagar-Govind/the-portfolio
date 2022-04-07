@@ -1,8 +1,10 @@
+import HeroPage from "./Components/HeroPage";
 
 
 function App() {
   return (
     <div className="App">
+      <HeroPage />
 
     </div>
   );
