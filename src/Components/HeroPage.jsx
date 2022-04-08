@@ -3,7 +3,7 @@ import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import Illustration from "./Assets/coder.gif";
 function HeroPage() {
-  const [ menu, set_menu ] = useState(false);
+  const [ menu, set_menu ] = useState(true);
   const ShowMenu = () => {
     if (menu) {
       document.getElementById("mobile-navbar-section").style.transform =

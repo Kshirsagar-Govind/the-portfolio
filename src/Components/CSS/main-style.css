@@ -23,6 +23,9 @@ html {
     display: none;
   }
 }
+.mobile-navbar-section {
+  display: none;
+}
 .HeroPage {
   width: 100vw;
   height: fit-content;
@@ -110,8 +113,8 @@ html {
   border-radius: 2rem;
   /* border: 2px solid; */
 }
-/* !! ################# mobile view starts */
-@media (min-width: 425px) and (max-width: 768px) {
+/* !!  (min-width: 425px) and################# mobile view starts */
+@media (max-width: 768px) {
   html {
     font-size: 30.5%;
     font-family: 'Poppins', sans-serif;
@@ -124,7 +127,9 @@ html {
   .HeroPage .navbar-section {
     display: none;
   }
-
+  .HeroPage .mobile-navbar-section {
+    display: block;
+  }
   .HeroPage .mobile-navbar-section .brand {
     display: flex;
     justify-content: space-between;
