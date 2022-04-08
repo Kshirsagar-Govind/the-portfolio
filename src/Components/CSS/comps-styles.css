@@ -8,3 +8,20 @@
 .prim-color {
   color: var(--primary);
 }
+
+.page-title-div {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.page-title-div .vr-line {
+  height: 100%;
+  width: 2rem;
+  background-color: var(--secondary);
+  background-color: red;
+}
+
+.page-title-div h1 {
+  font-size: 2rem;
+}

@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
+import "./CSS/hero-page-style.css";
 import Illustration from "./Assets/coder.gif";
 function HeroPage() {
   const [ menu, set_menu ] = useState(true);
