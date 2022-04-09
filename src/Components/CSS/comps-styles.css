@@ -25,3 +25,30 @@
 .page-title-div h1 {
   font-size: 2rem;
 }
+.float-right {
+  display: flex;
+  justify-content: end;
+}
+.work-btn {
+  /* background-color: red; */
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.8rem;
+  color: var(--pure);
+  font-size: 1.8rem;
+  /* background-color: var(--primary); */
+  background: linear-gradient(93.1deg, #00b4d8 0%, #00b4d8 0%);
+  transition: 1s;
+
+  box-shadow: 0px 8px 11px -3px rgba(0, 0, 0, 0.17);
+}
+.work-btn:hover {
+  border: none;
+
+  background: rgb(0, 180, 216);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 180, 216, 1) 0%,
+    rgba(0, 81, 98, 1) 100%
+  );
+}

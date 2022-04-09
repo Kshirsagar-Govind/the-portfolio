@@ -32,6 +32,7 @@ html {
   height: 100vh;
   /* border: 2px solid; */
   padding: 2rem;
+  /* background: linear-gradient(102.96deg, #00b4d8 0.82%, #00687c 70.71%); */
 }
 .HeroPage .navbar-section {
   display: flex;
