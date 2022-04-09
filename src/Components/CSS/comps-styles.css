@@ -8,6 +8,11 @@
 .prim-color {
   color: var(--primary);
 }
+.make-it-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .page-title-div {
   width: fit-content;

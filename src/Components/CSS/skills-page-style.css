@@ -174,7 +174,7 @@ html {
   .MySkillsPage {
     height: fit-content;
     /* background-color: red; */
-    padding: 2rem 2.5rem;
+    padding: 5rem;
     position: relative;
   }
   .MySkillsPage .page-title-div {
@@ -197,15 +197,23 @@ html {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
   }
-
+  .skill-section {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .skills-part-1 {
     display: grid;
-    /* border: 1px solid; */
     /* justify-content: space-between; */
-    gap: 3rem;
-    /* width: 70rem; */
+    gap: 5rem;
+    min-width: fit-content;
+    /* width: 100%; */
     grid-template-columns: repeat(2, 1fr);
     margin: 4rem 0;
+  }
+  .skills-part-1:last-child {
+    margin-right: 0;
   }
   .skill-1-wrapper {
     /* padding: 0 1rem; */
