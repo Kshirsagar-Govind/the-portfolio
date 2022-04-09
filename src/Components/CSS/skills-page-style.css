@@ -172,7 +172,7 @@ html {
   }
 
   .MySkillsPage {
-    height: 100vh;
+    height: fit-content;
     /* background-color: red; */
     padding: 2rem 2.5rem;
     position: relative;

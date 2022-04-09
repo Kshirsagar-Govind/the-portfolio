@@ -85,7 +85,7 @@ html {
     font-size: 30.5%;
   }
   .MyWorkPage {
-    height: 100vh;
+    height: fit-content;
 
     padding: 5rem;
     position: relative;
