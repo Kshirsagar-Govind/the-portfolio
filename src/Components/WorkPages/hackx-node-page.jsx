@@ -43,7 +43,7 @@ function HackxPage() {
             you can add your expenses and your tasks. All at one place.
           </p>
           <div className="case-study-section">
-            <img src={MakeNoteSS} width={600} alt="" />
+            <img src={MakeNoteSS} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Dashboard</h1>
@@ -59,7 +59,7 @@ function HackxPage() {
           </div>
 
           <div className="case-study-section">
-            <img src={AllNotes} width={600} alt="" />
+            <img src={AllNotes} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Note It Down</h1>
@@ -75,7 +75,7 @@ function HackxPage() {
           </div>
 
           <div className="case-study-section">
-            <img src={Tasks} width={600} alt="" />
+            <img src={Tasks} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Note It Down</h1>
@@ -91,7 +91,7 @@ function HackxPage() {
           </div>
 
           <div className="case-study-section">
-            <img src={Expense} width={600} alt="" />
+            <img src={Expense} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Note It Down</h1>
@@ -107,7 +107,7 @@ function HackxPage() {
           </div>
 
           <div className="case-study-section">
-            <img src={Password} width={600} alt="" />
+            <img src={Password} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Note It Down</h1>

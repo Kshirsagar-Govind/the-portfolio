@@ -5,6 +5,10 @@
   --pure: #ffffff;
 }
 
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
 .prim-color {
   color: var(--primary);
 }
@@ -33,11 +37,15 @@
 
 .page-title-div .vr-line {
   height: 100%;
-  width: 2rem;
+  width: .2rem;
   background-color: var(--secondary);
-  background-color: red;
 }
-
+.page-title-div h1 {
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: var(--secondary); */
+  font-weight: 400;
+}
 .page-title-div h1 {
   font-size: 2rem;
 }

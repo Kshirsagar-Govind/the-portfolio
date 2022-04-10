@@ -154,6 +154,7 @@ html {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding-top: 2rem;
+    animation: text 0.3s linear;
   }
 
   .skill-2-wrapper .s-2-line {

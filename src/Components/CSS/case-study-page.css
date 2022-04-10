@@ -45,6 +45,8 @@
     box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.04);
     margin: 0 3rem;
     width: 50%;
+    height: 70%;
+    border: 2px solid;
   }
   .case-study-para p {
     font-size: 1.5rem;
