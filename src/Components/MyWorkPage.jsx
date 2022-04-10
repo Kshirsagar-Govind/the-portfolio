@@ -1,9 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import "./CSS/my-work-style.css";
+import JSLogo from "./Assets/Javascript_logo.png";
+import MakeNoteSS from "./Assets/WorkSS/dash_ss.png";
+
+const MakeNoteData = [
+  {
+    id: 1,
+    img: JSLogo,
+    details: `First   What is the last time when you have tested your digital assets
+    like website or your web apps? So, When I was in HACK-X Security
+    I have developed this security assessment product.`,
+  },
+  {
+    id: 2,
+    img: MakeNoteSS,
+    details: `Second  What is the last time when you have tested your digital assets
+    like website or your web apps? So, When I was in HACK-X Security
+    I have developed this security assessment product. `,
+  },
+  {
+    id: 3,
+    img: JSLogo,
+    details: `Third  What is the last time when you have tested your digital assets
+    like website or your web apps? So, When I was in HACK-X Security
+    I have developed this security assessment product.`,
+  },
+];
 
 function MyWork() {
+  const [ showWork, _setShowWork ] = useState();
+  const [ curr_index, _setCurr_index ] = useState(0);
+
   return (
     <div className="MyWorkPage">
       <div className="page-title-div">
@@ -27,7 +56,9 @@ function MyWork() {
               </p>
             </span>
             <div className="float-right">
-              <button className="work-btn">See Work</button>
+              <a className="work-btn text-no-style" href="/project-hack-x-node">
+                Case Study
+              </a>
             </div>
           </div>
           <div className="work-card-container">
@@ -42,7 +73,12 @@ function MyWork() {
               </p>
             </span>
             <div className="float-right">
-              <button className="work-btn">See Work</button>
+              <a
+                className="work-btn text-no-style"
+                href="/project-note-it-down"
+              >
+                Case Study
+              </a>
             </div>
           </div>
         </div>

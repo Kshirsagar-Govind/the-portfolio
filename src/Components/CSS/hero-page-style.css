@@ -32,7 +32,22 @@ html {
   height: 100vh;
   /* border: 2px solid; */
   padding: 2rem;
+  /* animation: bganim 1s infinite; */
+  animation-delay: 2s;
+  background-color: var(--pure);
   /* background: linear-gradient(102.96deg, #00b4d8 0.82%, #00687c 70.71%); */
+}
+
+@keyframes bganim {
+  0% {
+    background-color: var(--pure);
+  }
+  50% {
+    background: linear-gradient(102.96deg, #00b4d8 0.82%, #00687c 70.71%);
+  }
+  100% {
+    background-color: var(--pure);
+  }
 }
 .HeroPage .navbar-section {
   display: flex;
