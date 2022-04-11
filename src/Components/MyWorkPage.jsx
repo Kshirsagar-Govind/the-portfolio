@@ -98,9 +98,7 @@ function MyWork() {
           </div>
           <div className="hr-line" />
           <div className="resume-btn">
-            <button onClick={() => ResumeTab()} className="work-btn">
-              RESUME
-            </button>
+            <button onClick={() => ResumeTab()}>RESUME</button>
           </div>
         </div>
       </div>
