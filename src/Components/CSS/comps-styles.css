@@ -34,7 +34,11 @@ html {
   display: flex;
   align-items: center;
 }
-
+.back-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 .page-title-div .vr-line {
   height: 100%;
   width: .2rem;

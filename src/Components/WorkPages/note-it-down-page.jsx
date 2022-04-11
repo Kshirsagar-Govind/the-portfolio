@@ -14,7 +14,7 @@ function NoteItDownPage() {
     <div className="make-it-centered">
       <div className="CaseStudyPage">
         <div className="case-study-header d-flex-ac">
-          <a href="/">
+          <button className="back-btn" onClick={() => window.history.back()}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-arrow-narrow-left"
@@ -32,7 +32,11 @@ function NoteItDownPage() {
               <line x1="5" y1="12" x2="9" y2="16" />
               <line x1="5" y1="12" x2="9" y2="8" />
             </svg>
-          </a>
+          </button>
+
+          {/* <a href="/">
+           
+          </a> */}
           <h1>Note It Down</h1>
         </div>
         <div className="case-study-para">
