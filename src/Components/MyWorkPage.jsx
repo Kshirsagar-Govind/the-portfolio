@@ -35,9 +35,18 @@ const MakeNoteData = [
 function MyWork() {
   const [ showWork, _setShowWork ] = useState();
   const [ curr_index, _setCurr_index ] = useState(0);
-  const ResumeTab = () => {
-    const url =
+  const newTabLink = valu => {
+    const linkedin_url = "https://www.linkedin.com/in/govind-kshirsagar";
+    const git_url = "https://github.com/Kshirsagar-Govind";
+    const medium_url = "https://medium.com/@kshirsagar.govind";
+    const resume_url =
       "https://drive.google.com/file/d/1MRbKyngrvS-AC2J4vUv03LHdtM3NXKAU/view";
+    const url =
+      valu == 1
+        ? resume_url
+        : valu == 2
+          ? git_url
+          : valu == 3 ? medium_url : valu == 4 ? linkedin_url : resume_url;
     window.open(url, "_blank");
   };
   return (
@@ -92,13 +101,13 @@ function MyWork() {
 
         <div className="social-section">
           <div className="socials-logo">
-            <img src={Git} alt="img" />
-            <img src={Medium} alt="img" />
-            <img src={Linkedin} alt="img" />
+            <img onClick={() => newTabLink(2)} src={Git} alt="img" />
+            <img onClick={() => newTabLink(3)} src={Medium} alt="img" />
+            <img onClick={() => newTabLink(4)} src={Linkedin} alt="img" />
           </div>
           <div className="hr-line" />
           <div className="resume-btn">
-            <button onClick={() => ResumeTab()}>RESUME</button>
+            <button onClick={() => newTabLink(1)}>RESUME</button>
           </div>
         </div>
       </div>
