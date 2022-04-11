@@ -16,11 +16,6 @@ import SocketLogo from "./Assets/socket_logo.png";
 import CPPLogo from "./Assets/c++_icon.png";
 
 function MySkills() {
-  const ResumeTab = () => {
-    const url =
-      "https://drive.google.com/file/d/1MRbKyngrvS-AC2J4vUv03LHdtM3NXKAU/view";
-    window.open(url, "_blank");
-  };
   return (
     <div className="MySkillsPage">
       <div className="page-title-div">
@@ -88,10 +83,7 @@ function MySkills() {
             </div>
           ))}
         </div>
-        <div className="">
-          {/* <h1>Resume</h1> */}
-          <button onClick={() => ResumeTab()}>Resume</button>
-        </div>
+        <div className="" />
       </div>
     </div>
   );

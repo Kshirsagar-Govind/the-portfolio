@@ -53,12 +53,14 @@ html {
   .MyWorkPage .work-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    column-gap: 3rem;
+    width: fit-content;
+    column-gap: 10rem;
+    margin-bottom: 3rem;
+    /* border: 2px solid; */
   }
   .MyWorkPage .work-section .work-card-container {
     box-shadow: 0rem 2rem 5rem -1rem rgba(0, 0, 0, 0.05);
-    width: 100%;
+    width: 60rem;
     /* min-height: 25rem; */
     max-height: fit-content;
     border: 2px solid #32323227;
@@ -79,6 +81,33 @@ html {
   .MyWorkPage .work-section .work-card-container span p {
     font-size: 1.4rem;
     text-align: justify;
+  }
+
+  .social-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 2rem;
+  }
+  .social-section .socials-logo {
+    display: flex;
+    flex-direction: space-evenly;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+  }
+  .social-section .socials-logo img {
+    margin: 0 4rem;
+  }
+  .hr-line {
+    width: 100%;
+    height: .21rem;
+    opacity: .2;
+    background-color: var(--secondary);
+  }
+  .resume-btn button {
   }
 }
 
@@ -123,7 +152,7 @@ html {
   .work-section .work-card-container {
     box-shadow: 0rem 2rem 5rem -1rem rgba(0, 0, 0, 0.05);
     width: 65rem;
-    height: 35rem;
+    height: 48rem;
     border: 2px solid #32323227;
     border-radius: 2rem;
     z-index: 20;
@@ -140,7 +169,33 @@ html {
     /* background: linear-gradient(93.1deg, #00b4d8 0%, #00687c 102.59%); */
   }
   .work-section .work-card-container span p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: justify;
+  }
+  .social-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 2rem;
+  }
+  .social-section .socials-logo {
+    display: flex;
+    flex-direction: space-evenly;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+  }
+  .social-section .socials-logo img {
+    margin: 0 4rem;
+    height: 7rem;
+  }
+
+  .hr-line {
+    width: 100%;
+    height: .21rem;
+    opacity: .2;
+    background-color: var(--secondary);
   }
 }

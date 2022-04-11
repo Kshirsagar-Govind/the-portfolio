@@ -4,6 +4,9 @@ import "./CSS/comps-styles.css";
 import "./CSS/my-work-style.css";
 import JSLogo from "./Assets/Javascript_logo.png";
 import MakeNoteSS from "./Assets/WorkSS/dash_ss.png";
+import Git from "./Assets/WorkSS/git.png";
+import Linkedin from "./Assets/WorkSS/linkedin.png";
+import Medium from "./Assets/WorkSS/medium.png";
 
 const MakeNoteData = [
   {
@@ -32,7 +35,11 @@ const MakeNoteData = [
 function MyWork() {
   const [ showWork, _setShowWork ] = useState();
   const [ curr_index, _setCurr_index ] = useState(0);
-
+  const ResumeTab = () => {
+    const url =
+      "https://drive.google.com/file/d/1MRbKyngrvS-AC2J4vUv03LHdtM3NXKAU/view";
+    window.open(url, "_blank");
+  };
   return (
     <div className="MyWorkPage">
       <div className="page-title-div">
@@ -80,6 +87,20 @@ function MyWork() {
                 Case Study
               </a>
             </div>
+          </div>
+        </div>
+
+        <div className="social-section">
+          <div className="socials-logo">
+            <img src={Git} alt="img" />
+            <img src={Medium} alt="img" />
+            <img src={Linkedin} alt="img" />
+          </div>
+          <div className="hr-line" />
+          <div className="resume-btn">
+            <button onClick={() => ResumeTab()} className="work-btn">
+              RESUME
+            </button>
           </div>
         </div>
       </div>
