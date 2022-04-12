@@ -24,7 +24,7 @@ function GetInTouch() {
             <input type="email" placeholder="enter your email" />
           </div>
           <div className="input-div">
-            <label>Your Subject</label>
+            <label>Your Subject </label>
             <input type="text" placeholder="enter subject" />
           </div>
           <div>
@@ -38,5 +38,6 @@ function GetInTouch() {
     </div>
   );
 }
+//
 
 export default GetInTouch;
