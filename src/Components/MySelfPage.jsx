@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import "./CSS/my-self-style.css";
+import Self from "./Assets/self.gif";
 
 function MySelf() {
   return (
@@ -12,6 +13,20 @@ function MySelf() {
           My
           <span className="prim-color"> Self</span>
         </h1>
+      </div>
+
+      <div className="my-self-section">
+        <div>
+          <img src={Self} />
+        </div>
+        <div>
+          <p>
+            I would like to join a organization, where I can use my strengths to
+            grow myself as well as the organization. I always try to learn new
+            things, to enhance my knowledge. I wanted to be the best at my work
+            and I am confident I will be.
+          </p>
+        </div>
       </div>
     </div>
   );

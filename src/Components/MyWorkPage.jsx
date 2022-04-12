@@ -71,10 +71,15 @@ function MyWork() {
                 big and complex product. But I was able to complete it alone.
               </p>
             </span>
-            <div className="float-right">
-              <a className="work-btn text-no-style" href="/project-hack-x-node">
-                Case Study
-              </a>
+            <div className="show-work">
+              <span>
+                <a
+                  className="work-btn text-no-style"
+                  href="/project-note-it-down"
+                >
+                  Case Study
+                </a>
+              </span>
             </div>
           </div>
           <div className="work-card-container">
@@ -88,13 +93,15 @@ function MyWork() {
                 one place.
               </p>
             </span>
-            <div className="float-right">
-              <a
-                className="work-btn text-no-style"
-                href="/project-note-it-down"
-              >
-                Case Study
-              </a>
+            <div className="show-work">
+              <span>
+                <a
+                  className="work-btn text-no-style"
+                  href="/project-note-it-down"
+                >
+                  Case Study
+                </a>
+              </span>
             </div>
           </div>
         </div>

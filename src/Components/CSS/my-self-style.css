@@ -25,3 +25,37 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
+
+.my-self-section {
+  display: flex;
+  /* align-items: center; */
+  gap: 2rem;
+}
+.my-self-section div img {
+  /* border: 2px solid; */
+}
+.my-self-section div p {
+  margin-top: 5rem;
+  font-size: 2rem;
+  /* border: 2px solid; */
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 30.5%;
+  }
+  .my-self-section {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .my-self-section div img {
+    /* border: 2px solid; */
+    width: 100%;
+  }
+  .my-self-section div p {
+    margin-top: 5rem;
+    font-size: 3rem;
+    /* border: 2px solid; */
+  }
+}
