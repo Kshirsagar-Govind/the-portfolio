@@ -43,6 +43,12 @@
   html {
     font-size: 30.5%;
   }
+  .MySelfPage {
+    height: fit-content;
+
+    padding: 5rem;
+    position: relative;
+  }
   .my-self-section {
     display: flex;
     /* align-items: center; */
