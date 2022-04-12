@@ -90,10 +90,11 @@ label {
     height: 4rem;
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem;
   }
   .form .input-div input {
     border-radius: 1rem;
+    padding: 3rem;
     outline: none;
     border: 2px solid #b8b8b8;
   }
