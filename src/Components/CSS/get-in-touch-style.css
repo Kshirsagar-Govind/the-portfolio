@@ -61,7 +61,7 @@ label {
 }
 @media (max-width: 768px) {
   html {
-    font-size: 30.5%;
+    font-size: 35.5%;
   }
   .MySelfPage {
     height: fit-content;
@@ -77,7 +77,7 @@ label {
 
   .form {
     /* border: 2px solid; */
-    width: 80%;
+    width: 100%;
     height: fit-content;
   }
   .form div {
