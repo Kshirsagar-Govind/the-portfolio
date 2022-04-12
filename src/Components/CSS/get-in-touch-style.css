@@ -30,6 +30,19 @@
   width: 50%;
   height: fit-content;
 }
+
+.submit-button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.8rem;
+  color: var(--pure);
+  font-size: 2rem;
+  background: linear-gradient(93.1deg, #00b4d8 0%, #00b4d8 0%);
+  transition: 0.3s;
+  width: 12vw;
+  height: 7vh;
+  box-shadow: 0px 8px 11px -3px rgba(0, 0, 0, 0.17);
+}
 .form div {
   margin: 2rem 0;
 }
@@ -96,7 +109,7 @@ label {
     border-radius: 1rem;
     padding: 3rem;
     outline: none;
-    border: 2px solid #b8b8b8;
+    border: 1.5px solid #b8b8b8;
   }
 
   .form div textarea {
@@ -106,9 +119,22 @@ label {
     resize: none;
     font-size: 2.5rem;
 
-    border: 2px solid #b8b8b8;
+    border: 1px solid #b8b8b8;
     border-radius: 1rem;
     outline: none;
     font-family: 'Poppins', sans-serif;
+  }
+
+  .submit-button {
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 0.8rem;
+    color: var(--pure);
+    font-size: 4rem;
+    background: linear-gradient(93.1deg, #00b4d8 0%, #00b4d8 0%);
+    transition: 0.3s;
+    width: 100%;
+    height: 7vh;
+    box-shadow: 0px 8px 11px -3px rgba(0, 0, 0, 0.17);
   }
 }

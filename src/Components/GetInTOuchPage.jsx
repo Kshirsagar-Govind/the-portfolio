@@ -31,7 +31,7 @@ function GetInTouch() {
             <textarea placeholder="enter message" />
           </div>
           <div className="make-it-centered">
-            <input className="work-btn" type="submit" value="submit" />
+            <input className="submit-button" type="submit" value="Submit" />
           </div>
         </div>
       </form>
