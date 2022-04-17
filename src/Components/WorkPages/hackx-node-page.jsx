@@ -43,11 +43,11 @@ function HackxPage() {
             you can add your expenses and your tasks. All at one place.
           </p>
           <div className="case-study-section">
-            <img src={MakeNoteSS} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Dashboard</h1>
               </div>
+
               <p>
                 Most of the time, I work on some ideas and get into some
                 important issues or solutions but I need to note all this things
@@ -56,15 +56,15 @@ function HackxPage() {
                 one place.
               </p>
             </span>
+            <img src={MakeNoteSS} alt="" />
           </div>
 
           <div className="case-study-section">
-            <img src={AllNotes} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Note It Down</h1>
               </div>
-              <p>
+              <p className="case-study-desc">
                 Most of the time, I work on some ideas and get into some
                 important issues or solutions but I need to note all this things
                 somewhere, and that's what my project is - NoteItDown. So You
@@ -72,6 +72,7 @@ function HackxPage() {
                 one place.
               </p>
             </span>
+            <img src={AllNotes} alt="" />
           </div>
 
           <div className="case-study-section">

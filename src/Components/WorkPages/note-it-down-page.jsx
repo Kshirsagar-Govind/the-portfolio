@@ -63,7 +63,6 @@ function NoteItDownPage() {
           </div>
 
           <div className="case-study-section">
-            <img src={AllNotes} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Note It Down</h1>
@@ -76,6 +75,7 @@ function NoteItDownPage() {
                 one place.
               </p>
             </span>
+            <img src={AllNotes} alt="" />
           </div>
 
           <div className="case-study-section">
@@ -95,7 +95,6 @@ function NoteItDownPage() {
           </div>
 
           <div className="case-study-section">
-            <img src={Expense} alt="" />
             <span>
               <div className="case-study-header">
                 <h1>Note It Down</h1>
@@ -108,6 +107,7 @@ function NoteItDownPage() {
                 one place.
               </p>
             </span>
+            <img src={Expense} alt="" />
           </div>
 
           <div className="case-study-section">

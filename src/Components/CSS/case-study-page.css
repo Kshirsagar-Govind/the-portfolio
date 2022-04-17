@@ -26,12 +26,18 @@
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.04);
   margin: 0 3rem;
   width: 50%;
+  border: 2px solid rgba(128, 128, 128, 0.205);
 }
 .case-study-para p {
   font-size: 1.5rem;
 }
 .case-study-para .case-study-section span {
+  background-color: var(--primary);
+  padding: 3rem;
   padding-top: 2rem;
+  height: fit-content;
+  border-radius: 1rem;
+  color: var(--pure);
 }
 
 @media (max-width: 768px) {
