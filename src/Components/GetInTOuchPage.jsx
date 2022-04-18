@@ -4,6 +4,15 @@ import "./CSS/comps-styles.css";
 import "./CSS/get-in-touch-style.css";
 
 function GetInTouch() {
+  const [ subject, _setSubject ] = useState("");
+  const [ body, _setBody ] = useState("");
+  const [ myEmail, _setMyEmail ] = useState("kshirsagar.govind@outlook.com");
+  const sendMail = () => {
+    if (subject == "" || body == "") {
+      return alert("Empty Field Not Allowed");
+    }
+    window.open(`mailto:${myEmail}?subject=${subject}&body=${body}`);
+  };
   return (
     <div className="MySelfPage">
       <div className="page-title-div">
@@ -13,28 +22,39 @@ function GetInTouch() {
           <span className="prim-color"> Talk</span>
         </h1>
       </div>
-      <form>
-        <div className="form">
-          <div className="input-div">
-            <label>Your Name</label>
-            <input type="text" placeholder="enter your name" />
-          </div>
-          <div className="input-div">
-            <label>Your Email</label>
-            <input type="email" placeholder="enter your email" />
-          </div>
-          <div className="input-div">
-            <label>Your Subject </label>
-            <input type="text" placeholder="enter subject" />
-          </div>
-          <div>
-            <textarea placeholder="enter message" />
-          </div>
-          <div className="make-it-centered">
-            <input className="submit-button" type="submit" value="Submit" />
-          </div>
+
+      <div className="form">
+        <div className="input-div">
+          <label>Your Name</label>
+          <input type="text" placeholder="enter your name" />
         </div>
-      </form>
+        <div className="input-div">
+          <label>Your Email</label>
+          <input type="email" placeholder="enter your email" />
+        </div>
+        <div className="input-div">
+          <label>Your Subject </label>
+          <input
+            type="text"
+            placeholder="enter subject"
+            value={subject}
+            onChange={e => _setSubject(e.target.value)}
+          />
+        </div>
+        <div>
+          <textarea
+            placeholder="enter message"
+            value={body}
+            onChange={e => _setBody(e.target.value)}
+          />
+        </div>
+        <div className="make-it-centered">
+          {/* <input className="submit-button" type="submit" value="Submit" /> */}
+          <button className="submit-button" onClick={() => sendMail()}>
+            Talk
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

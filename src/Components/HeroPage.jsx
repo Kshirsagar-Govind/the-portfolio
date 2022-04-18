@@ -78,7 +78,15 @@ function HeroPage() {
             <br />
             FULL STACK <span className="prim-color">DEVELOP</span>ER
           </h1>
-          <button>Hi</button>
+          <button
+            onClick={() => {
+              window.open(
+                "mailto:govindkshgk@gmail.com?subject=Subject&body=Body%20goes%20here"
+              );
+            }}
+          >
+            Hi
+          </button>
         </div>
         <div className="illustration-part">
           <img src={Illustration} alt="" />
