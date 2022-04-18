@@ -13,7 +13,7 @@ function MainPage() {
       <MySkills />
       <MyWork />
       <MySelf />
-      <GetInTouch />
+      {/* <GetInTouch /> */}
       {/* <NoteItDownPage /> */}
     </div>
   );

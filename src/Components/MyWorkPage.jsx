@@ -104,6 +104,52 @@ function MyWork() {
               </span>
             </div>
           </div>
+
+          <div className="work-card-container">
+            <span>
+              <h1>Make Note App</h1>
+              <p>
+                Most of the time, I work on some ideas and get into some
+                important issues or solutions but I need to note all this things
+                somewhere, and that's what my project is - NoteItDown. So You
+                can wite notes, you can add your expenses and your tasks. All at
+                one place.
+              </p>
+            </span>
+            <div className="show-work">
+              <span>
+                <a
+                  className="work-btn text-no-style"
+                  href="/project-note-it-down"
+                >
+                  Case Study
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div className="work-card-container">
+            <span>
+              <h1>eCommerce Website</h1>
+              <p>
+                Most of the time, I work on some ideas and get into some
+                important issues or solutions but I need to note all this things
+                somewhere, and that's what my project is - NoteItDown. So You
+                can wite notes, you can add your expenses and your tasks. All at
+                one place.
+              </p>
+            </span>
+            <div className="show-work">
+              <span>
+                <a
+                  className="work-btn text-no-style"
+                  href="/project-note-it-down"
+                >
+                  Case Study
+                </a>
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className="social-section">

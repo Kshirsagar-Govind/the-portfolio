@@ -24,7 +24,7 @@ html {
 
 @media (min-width: 769px) {
   .MyWorkPage {
-    height: 100vh;
+    height: fit-content;
 
     padding: 5rem;
     position: relative;
@@ -54,7 +54,8 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: fit-content;
-    column-gap: 10rem;
+    column-gap: 7rem;
+    row-gap: 5rem;
     margin-bottom: 3rem;
     /* border: 2px solid; */
   }
