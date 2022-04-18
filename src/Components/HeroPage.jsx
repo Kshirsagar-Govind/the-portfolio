@@ -80,9 +80,7 @@ function HeroPage() {
           </h1>
           <button
             onClick={() => {
-              window.open(
-                "mailto:govindkshgk@gmail.com?subject=Subject&body=Body%20goes%20here"
-              );
+              window.open("mailto:govindkshgk@gmail.com?subject=&body=");
             }}
           >
             Hi
