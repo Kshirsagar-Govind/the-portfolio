@@ -17,7 +17,7 @@ import CPPLogo from "./Assets/c++_icon.png";
 
 function MySkills() {
   return (
-    <div className="MySkillsPage">
+    <div id="skills" className="MySkillsPage">
       <div className="page-title-div">
         <div className="vr-line" />
         <h1>
@@ -33,7 +33,7 @@ function MySkills() {
             </div>
             <div className="s-1-detail">
               <h1>Javascript</h1>
-              <p>details</p>
+              {/* <p>details</p> */}
             </div>
           </div>
 
@@ -43,7 +43,7 @@ function MySkills() {
             </div>
             <div className="s-1-detail">
               <h1>React JS</h1>
-              <p>details</p>
+              {/* <p>details</p> */}
             </div>
           </div>
 
@@ -53,7 +53,7 @@ function MySkills() {
             </div>
             <div className="s-1-detail">
               <h1>Node JS</h1>
-              <p>details</p>
+              {/* <p>details</p> */}
             </div>
           </div>
 
@@ -63,7 +63,7 @@ function MySkills() {
             </div>
             <div className="s-1-detail">
               <h1>Mongo DB</h1>
-              <p>details</p>
+              {/* <p>details</p> */}
             </div>
           </div>
         </div>

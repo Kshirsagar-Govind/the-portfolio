@@ -16,6 +16,10 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+.text-none {
+  text-decoration: inherit;
+  color: inherit;
+}
 .page-title-div {
   width: 100%;
   display: flex;

@@ -155,7 +155,7 @@ function MyWork() {
         <div className="social-section">
           <div className="socials-logo">
             <img onClick={() => newTabLink(2)} src={Git} alt="img" />
-            <img onClick={() => newTabLink(3)} src={Medium} alt="img" />
+            {/* <img onClick={() => newTabLink(3)} src={Medium} alt="img" /> */}
             <img onClick={() => newTabLink(4)} src={Linkedin} alt="img" />
           </div>
           <div className="hr-line" />

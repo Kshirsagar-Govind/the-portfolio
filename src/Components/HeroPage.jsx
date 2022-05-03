@@ -32,7 +32,10 @@ function HeroPage() {
           <ul>
             <li>Home</li>
 
-            <li>Skill</li>
+            <li>
+              <a href="#skills" />
+              Skill
+            </li>
 
             <li>Experience</li>
 
