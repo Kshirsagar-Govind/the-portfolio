@@ -15,6 +15,20 @@ html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
 }
+.d-flex {
+  display: flex;
+}
+.just-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.just-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .text-none {
   text-decoration: inherit;

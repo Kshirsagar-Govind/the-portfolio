@@ -2,35 +2,10 @@ import React, { useState } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import "./CSS/my-work-style.css";
-import JSLogo from "./Assets/Javascript_logo.png";
-import MakeNoteSS from "./Assets/WorkSS/dash_ss.png";
+
 import Git from "./Assets/WorkSS/git.png";
 import Linkedin from "./Assets/WorkSS/linkedin.png";
 import Medium from "./Assets/WorkSS/medium.png";
-
-const MakeNoteData = [
-  {
-    id: 1,
-    img: JSLogo,
-    details: `First   What is the last time when you have tested your digital assets
-    like website or your web apps? So, When I was in HACK-X Security
-    I have developed this security assessment product.`,
-  },
-  {
-    id: 2,
-    img: MakeNoteSS,
-    details: `Second  What is the last time when you have tested your digital assets
-    like website or your web apps? So, When I was in HACK-X Security
-    I have developed this security assessment product. `,
-  },
-  {
-    id: 3,
-    img: JSLogo,
-    details: `Third  What is the last time when you have tested your digital assets
-    like website or your web apps? So, When I was in HACK-X Security
-    I have developed this security assessment product.`,
-  },
-];
 
 function MyWork() {
   const [ showWork, _setShowWork ] = useState();
@@ -75,7 +50,7 @@ function MyWork() {
               <span>
                 <a
                   className="work-btn text-no-style"
-                  href="/project-note-it-down"
+                  href="/project-hack-x-node"
                 >
                   Case Study
                 </a>

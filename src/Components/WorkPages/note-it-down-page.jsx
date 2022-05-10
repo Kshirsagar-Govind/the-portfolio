@@ -1,15 +1,53 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../CSS/main-style.css";
 import "../CSS/comps-styles.css";
 import "../CSS/case-study-page.css";
 
-import MakeNoteSS from "../Assets/WorkSS/dash_ss.png";
-import AllNotes from "../Assets/WorkSS/all_notes.png";
-import Expense from "../Assets/WorkSS/expense.png";
-import Password from "../Assets/WorkSS/password.png";
-import Tasks from "../Assets/WorkSS/tasks.png";
+import MakeNoteSS from "../Assets/WorkSS/Dashboard.png";
+import AllNotes from "../Assets/WorkSS/All Notes.png";
+import Expense from "../Assets/WorkSS/Expenses.png";
+import Password from "../Assets/WorkSS/Password.png";
+import Tasks from "../Assets/WorkSS/Tasks.png";
+import SSAlbum from "../Helpers/ss-album";
 
 function NoteItDownPage() {
+  const [ images, _setImages ] = useState([
+    {
+      img: MakeNoteSS,
+      details: "lorem1",
+    },
+
+    {
+      img: AllNotes,
+      details: "lorem2",
+    },
+
+    {
+      img: Expense,
+      details: "lorem3",
+    },
+
+    {
+      img: Password,
+      details: "lorem4",
+    },
+
+    {
+      img: Tasks,
+      details: "lorem5",
+    },
+  ]);
+  // useEffect = (() => {}, [ curr_img_index ]);
+  const [ curr_img_index, _set_Index ] = useState(0);
+  const next = () => {
+    if (curr_img_index < images.length - 1)
+      _set_Index(curr_img_index => curr_img_index + 1);
+  };
+
+  const prev = () => {
+    if (curr_img_index > 0) _set_Index(curr_img_index => curr_img_index - 1);
+  };
+
   return (
     <div className="make-it-centered">
       <div className="CaseStudyPage">
@@ -46,86 +84,9 @@ function NoteItDownPage() {
             and that's what my project is - NoteItDown. So You can wite notes,
             you can add your expenses and your tasks. All at one place.
           </p>
-          <div className="case-study-section">
-            <img src={MakeNoteSS} alt="" />
-            <span>
-              <div className="case-study-header">
-                <h1>Dashboard</h1>
-              </div>
-              <p>
-                Most of the time, I work on some ideas and get into some
-                important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
-              </p>
-            </span>
-          </div>
-
-          <div className="case-study-section">
-            <span>
-              <div className="case-study-header">
-                <h1>Note It Down</h1>
-              </div>
-              <p>
-                Most of the time, I work on some ideas and get into some
-                important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
-              </p>
-            </span>
-            <img src={AllNotes} alt="" />
-          </div>
-
-          <div className="case-study-section">
-            <img src={Tasks} alt="" />
-            <span>
-              <div className="case-study-header">
-                <h1>Note It Down</h1>
-              </div>
-              <p>
-                Most of the time, I work on some ideas and get into some
-                important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
-              </p>
-            </span>
-          </div>
-
-          <div className="case-study-section">
-            <span>
-              <div className="case-study-header">
-                <h1>Note It Down</h1>
-              </div>
-              <p>
-                Most of the time, I work on some ideas and get into some
-                important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
-              </p>
-            </span>
-            <img src={Expense} alt="" />
-          </div>
-
-          <div className="case-study-section">
-            <img src={Password} alt="" />
-            <span>
-              <div className="case-study-header">
-                <h1>Note It Down</h1>
-              </div>
-              <p>
-                Most of the time, I work on some ideas and get into some
-                important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
-              </p>
-            </span>
-          </div>
         </div>
+
+        <SSAlbum images={images} />
       </div>
     </div>
   );
