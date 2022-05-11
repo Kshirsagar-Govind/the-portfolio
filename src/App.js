@@ -10,6 +10,8 @@ import {
 import MainPage from "./Components/WorkPages/main-page";
 import NoteItDownPage from "./Components/WorkPages/note-it-down-page";
 import HackxPage from "./Components/WorkPages/hackx-node-page";
+import MakeNotePage from "./Components/WorkPages/make-note-page";
+import EcomPage from "./Components/WorkPages/ecom-page";
 
 
 function App() {
@@ -29,6 +31,18 @@ function App() {
 
           <Route
             exact path="/project-hack-x-node" element={<HackxPage />}
+          >
+
+          </Route>
+
+          <Route
+            exact path="/project-make-note" element={<MakeNotePage />}
+          >
+
+          </Route>
+
+          <Route
+            exact path="/project-ecom" element={<EcomPage />}
           >
 
           </Route>

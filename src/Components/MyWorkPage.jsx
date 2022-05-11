@@ -82,7 +82,7 @@ function MyWork() {
 
           <div className="work-card-container">
             <span>
-              <h1>Make Note App</h1>
+              <h1>Make Note</h1>
               <p>
                 Most of the time, I work on some ideas and get into some
                 important issues or solutions but I need to note all this things
@@ -93,10 +93,7 @@ function MyWork() {
             </span>
             <div className="show-work">
               <span>
-                <a
-                  className="work-btn text-no-style"
-                  href="/project-note-it-down"
-                >
+                <a className="work-btn text-no-style" href="/project-make-note">
                   Case Study
                 </a>
               </span>
@@ -116,10 +113,7 @@ function MyWork() {
             </span>
             <div className="show-work">
               <span>
-                <a
-                  className="work-btn text-no-style"
-                  href="/project-note-it-down"
-                >
+                <a className="work-btn text-no-style" href="/project-ecom">
                   Case Study
                 </a>
               </span>

@@ -87,6 +87,64 @@ function NoteItDownPage() {
         </div>
 
         <SSAlbum images={images} />
+
+        <div className="case-stidy-detail">
+          <div className="c-header">
+            <h2>Technologies Used</h2>
+          </div>
+          <div className="c-info">
+            <p>
+              Medium scaled web app, I used MERN stack for this app. Some charts
+              apis like graph and pie chart.
+              <ul>
+                <li>REACT JS</li>
+
+                <li>Node JS</li>
+
+                <li>React-Redux JS</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div className="case-stidy-detail">
+          <div className="c-header">
+            <h2>Use Case</h2>
+          </div>
+          <div className="c-info">
+            <p>
+              Seems similar to Make Note app? Wait... Yes it is. but to some
+              extent, let me explain This app allows user to add notebook in
+              which user can add notes and keep multiple notebook with mulitple
+              notes inside notebooks. I made this project in my early time when
+              i was learning optimization of codes and fetching data from
+              database and posting data to database.
+            </p>
+          </div>
+        </div>
+        <div className="case-stidy-detail">
+          <div className="c-header">
+            <h2>Challenges Faced</h2>
+          </div>
+          <div className="c-info">
+            <p>
+              I faced most of the problems on backend. Like renaming notes,
+              editing and then saving that edited notes.
+            </p>
+          </div>
+        </div>
+        <div className="case-stidy-detail">
+          <div className="c-header">
+            <h2>New Learnings</h2>
+          </div>
+          <div className="c-info">
+            <p>
+              As always first learning was, optimization of codes with different
+              ways, code cleanlyness. And I enjoyed implementing all of the
+              features for this project.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
