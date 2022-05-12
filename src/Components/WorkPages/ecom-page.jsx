@@ -6,8 +6,7 @@ import "../CSS/case-study-page.css";
 import MakeNoteSS from "../Assets/WorkSS/Dashboard.png";
 import AllNotes from "../Assets/WorkSS/All Notes.png";
 import Expense from "../Assets/WorkSS/Expenses.png";
-import Password from "../Assets/WorkSS/Password.png";
-import Tasks from "../Assets/WorkSS/Tasks.png";
+
 import SSAlbum from "../Helpers/ss-album";
 
 function EcomPage() {
@@ -25,16 +24,6 @@ function EcomPage() {
     {
       img: Expense,
       details: "lorem3",
-    },
-
-    {
-      img: Password,
-      details: "lorem4",
-    },
-
-    {
-      img: Tasks,
-      details: "lorem5",
     },
   ]);
   // useEffect = (() => {}, [ curr_img_index ]);
