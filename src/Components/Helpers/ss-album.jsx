@@ -31,7 +31,7 @@ const SSAlbum = ({ images }) => {
           </svg>
         </span>
 
-        <img src={images[curr_img_index].img} width="800" alt="" />
+        <img src={images[curr_img_index].img} alt="" />
         <span onClick={() => next()}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
