@@ -159,11 +159,22 @@ html {
     height: fit-content;
     padding: 2rem 3rem;
   }
+  .HeroPage .fixed-navbar {
+    display: none;
+  }
   .HeroPage .navbar-section {
     display: none;
   }
   .HeroPage .mobile-navbar-section {
     display: block;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 111;
+    background-color: var(--pure);
+    top: 0;
+    padding: 3rem;
+    height: 10rem;
   }
   .HeroPage .mobile-navbar-section .brand {
     display: flex;
@@ -200,12 +211,13 @@ html {
   }
   #mobile-navbar-section-menu {
     display: none;
+    /* margin-top: -5rem; */
   }
   .HeroPage .mobile-navbar-section .menus {
     position: relative;
     height: fit-content;
     background-color: var(--pure);
-    margin-top: 5rem;
+    margin-top: -3px;
     transition: 0.3s;
   }
   .HeroPage .mobile-navbar-section .menus ul {
@@ -224,7 +236,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0rem;
+    padding-top: 10rem;
     align-items: center;
   }
 

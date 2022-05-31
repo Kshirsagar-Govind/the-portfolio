@@ -45,8 +45,7 @@ function MainPage() {
       {/* <HeroPage /> */}
       <div className="HeroPage">
         <div className="fixed-navbar">
-          <div //   shadow ? "navbar-section shadow-off" : "navbar-section shadow-on" // className={
-          // }
+          <div // } //   shadow ? "navbar-section shadow-off" : "navbar-section shadow-on" // className={
           className="navbar-section">
             <div className="brand">
               <h3>
@@ -55,7 +54,14 @@ function MainPage() {
             </div>
             <div className="menus">
               <ul>
-                <li>Home</li>
+                <li>
+                  <a
+                    style={{ textDecoration: "none", color: "inherit" }}
+                    href="#home"
+                  >
+                    Home
+                  </a>
+                </li>
 
                 <li>
                   <a
@@ -112,20 +118,57 @@ function MainPage() {
             </div>
           </div>
           <div id="mobile-navbar-section" className="menus">
-            <ul id="mobile-navbar-section-menu">
-              <li>Home</li>
+            <ul id="mobile-navbar-section-menu" />
+            <ul>
+              <li>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  href="#home"
+                >
+                  Home
+                </a>
+              </li>
 
-              <li>Skill</li>
+              <li>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  href="#skills"
+                >
+                  Skill
+                </a>
+              </li>
 
-              <li>Experience</li>
+              <li>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  href="#experience"
+                >
+                  Experience
+                </a>
+              </li>
 
-              <li>About</li>
-              <li>Contact</li>
+              <li>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  href="#about"
+                >
+                  About
+                </a>
+              </li>
+
+              <li>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  href="#contact"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div className="hero-section">
+        <div id="home" className="hero-section">
           <div className="title-part">
             <h4>I am Govind Kshirsagar,</h4>
             <h1>
