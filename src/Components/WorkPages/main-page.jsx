@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component, useState, useEffect } from "react";
 import GetInTouch from "../GetInTOuchPage";
 import HeroPage from "../HeroPage";
 import MySelf from "../MySelfPage";
@@ -8,6 +8,23 @@ import NoteItDownPage from "./note-it-down-page";
 import Illustration from "../Assets/coder.gif";
 function MainPage() {
   const [ menu, set_menu ] = useState(true);
+  const [ shadow, set_shadow ] = useState(true);
+  const [ y, setY ] = useState(window.scrollY);
+
+  useEffect(
+    () => {
+      window.addEventListener("scroll", e => handleNavigation(e));
+
+      return () => {
+        // return a cleanup function to unregister our function since its gonna run multiple times
+        window.removeEventListener("scroll", e => handleNavigation(e));
+      };
+    },
+    [ y ]
+  );
+  const handleNavigation = () => {
+    set_shadow(false);
+  };
   const ShowMenu = () => {
     if (menu) {
       document.getElementById("mobile-navbar-section").style.transform =
@@ -27,37 +44,56 @@ function MainPage() {
     <div>
       {/* <HeroPage /> */}
       <div className="HeroPage">
-        <div className="navbar-section">
-          <div className="brand">
-            <h3>
-              portfol<span>io</span>
-            </h3>
-          </div>
-          <div className="menus">
-            <ul>
-              <li>Home</li>
+        <div className="fixed-navbar">
+          <div //   shadow ? "navbar-section shadow-off" : "navbar-section shadow-on" // className={
+          // }
+          className="navbar-section">
+            <div className="brand">
+              <h3>
+                portfol<span>io</span>
+              </h3>
+            </div>
+            <div className="menus">
+              <ul>
+                <li>Home</li>
 
-              <li>
-                <a
-                  style={{ textDecoration: "none", color: "inherit" }}
-                  href="#skills"
-                >
-                  Skill
-                </a>
-              </li>
+                <li>
+                  <a
+                    style={{ textDecoration: "none", color: "inherit" }}
+                    href="#skills"
+                  >
+                    Skill
+                  </a>
+                </li>
 
-              <li>
-                <a
-                  style={{ textDecoration: "none", color: "inherit" }}
-                  href="#experience"
-                >
-                  Experience
-                </a>
-              </li>
+                <li>
+                  <a
+                    style={{ textDecoration: "none", color: "inherit" }}
+                    href="#experience"
+                  >
+                    Experience
+                  </a>
+                </li>
 
-              <li>About</li>
-              <li>Contact</li>
-            </ul>
+                <li>
+                  <a
+                    style={{ textDecoration: "none", color: "inherit" }}
+                    href="#about"
+                  >
+                    About
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    style={{ textDecoration: "none", color: "inherit" }}
+                    href="#contact"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -110,12 +146,18 @@ function MainPage() {
           </div>
         </div>
       </div>
-      <div id="#skills">
+      <div id="skills">
         <MySkills />
       </div>
-      <MyWork />
-      <MySelf />
-      <GetInTouch />
+      <div id="experience">
+        <MyWork />
+      </div>
+      <div id="about">
+        <MySelf />
+      </div>
+      <div id="contact">
+        <GetInTouch />
+      </div>
     </div>
   );
 }
