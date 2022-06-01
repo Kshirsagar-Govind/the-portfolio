@@ -6,24 +6,19 @@ import "../CSS/case-study-page.css";
 import MakeNoteSS from "../Assets/WorkSS/Dashboard.png";
 import AllNotes from "../Assets/WorkSS/All Notes.png";
 import Expense from "../Assets/WorkSS/Expenses.png";
+import Note from "../Assets/WorkSS/note.png";
+import Note_dash from "../Assets/WorkSS/note_dash.png";
 
 import SSAlbum from "../Helpers/ss-album";
-
 function MakeNotePage() {
   const [ images, _setImages ] = useState([
     {
-      img: MakeNoteSS,
-      details: "lorem1",
-    },
-
-    {
-      img: AllNotes,
+      img: Note_dash,
       details: "lorem2",
     },
-
     {
-      img: Expense,
-      details: "lorem3",
+      img: Note,
+      details: "lorem1",
     },
   ]);
   // useEffect = (() => {}, [ curr_img_index ]);

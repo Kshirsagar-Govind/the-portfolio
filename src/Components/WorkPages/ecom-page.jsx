@@ -7,22 +7,26 @@ import MakeNoteSS from "../Assets/WorkSS/Dashboard.png";
 import AllNotes from "../Assets/WorkSS/All Notes.png";
 import Expense from "../Assets/WorkSS/Expenses.png";
 
+import Home from "../Assets/WorkSS/ecom_home.png";
+import Cart from "../Assets/WorkSS/ecom_cart.png";
+import Item from "../Assets/WorkSS/ecom_item.png";
+
 import SSAlbum from "../Helpers/ss-album";
 
 function EcomPage() {
   const [ images, _setImages ] = useState([
     {
-      img: MakeNoteSS,
+      img: Home,
       details: "lorem1",
     },
 
     {
-      img: AllNotes,
+      img: Cart,
       details: "lorem2",
     },
 
     {
-      img: Expense,
+      img: Item,
       details: "lorem3",
     },
   ]);

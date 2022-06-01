@@ -6,6 +6,7 @@ import MySkills from "../MySkillsPage";
 import MyWork from "../MyWorkPage";
 import NoteItDownPage from "./note-it-down-page";
 import Illustration from "../Assets/coder.gif";
+import ExperiencePage from "../ExperiencePage";
 function MainPage() {
   const [ menu, set_menu ] = useState(true);
   const [ shadow, set_shadow ] = useState(true);
@@ -45,8 +46,7 @@ function MainPage() {
       {/* <HeroPage /> */}
       <div className="HeroPage">
         <div className="fixed-navbar">
-          <div // } //   shadow ? "navbar-section shadow-off" : "navbar-section shadow-on" // className={
-          className="navbar-section">
+          <div className="navbar-section">
             <div className="brand">
               <h3>
                 portfol<span>io</span>
@@ -192,7 +192,9 @@ function MainPage() {
       <div id="skills">
         <MySkills />
       </div>
+
       <div id="experience">
+        <ExperiencePage />
         <MyWork />
       </div>
       <div id="about">

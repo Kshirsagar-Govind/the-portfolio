@@ -30,12 +30,12 @@ function MyWork() {
         <div className="vr-line" />
         <h1>
           My
-          <span className="prim-color"> Work</span>
+          <span className="prim-color"> Projects</span>
         </h1>
       </div>
       <div className="make-it-centered">
         <div className="work-section">
-          <div className="work-card-container">
+          {/* <div className="work-card-container">
             <span>
               <h1>HACK-X Node</h1>
               <p>
@@ -56,7 +56,7 @@ function MyWork() {
                 </a>
               </span>
             </div>
-          </div>
+          </div> */}
           <div className="work-card-container">
             <span>
               <h1>Note It Down</h1>

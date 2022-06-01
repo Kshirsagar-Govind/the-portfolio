@@ -6,8 +6,8 @@ import "../CSS/case-study-page.css";
 import MakeNoteSS from "../Assets/WorkSS/Dashboard.png";
 import AllNotes from "../Assets/WorkSS/All Notes.png";
 import Expense from "../Assets/WorkSS/Expenses.png";
-// import Password from "../Assets/WorkSS/Password.png";
-// import Tasks from "../Assets/WorkSS/Tasks.png";
+import Password from "../Assets/WorkSS/password.png";
+import Tasks from "../Assets/WorkSS/tasks.png";
 import SSAlbum from "../Helpers/ss-album";
 
 function NoteItDownPage() {
@@ -21,20 +21,18 @@ function NoteItDownPage() {
       img: AllNotes,
       details: "lorem2",
     },
-
+    {
+      img: Tasks,
+      details: "lorem5",
+    },
     {
       img: Expense,
       details: "lorem3",
     },
 
     {
-      img: Expense,
+      img: Password,
       details: "lorem4",
-    },
-
-    {
-      img: Expense,
-      details: "lorem5",
     },
   ]);
   // useEffect = (() => {}, [ curr_img_index ]);

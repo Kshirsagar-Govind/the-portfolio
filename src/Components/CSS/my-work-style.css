@@ -15,7 +15,19 @@ html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
 }
-
+.MyWorkPage .exp-section p {
+  font-size: 1.4rem;
+  text-align: justify;
+  padding-top: 1rem;
+}
+.MyWorkPage .exp-section h4 {
+  font-size: 1.2rem;
+}
+.MyWorkPage .exp-section h3 {
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  color: var(--secondary);
+}
 @media (min-width: 769px) and (max-width: 1024px) {
   html {
     font-size: 40.5%;
@@ -28,6 +40,9 @@ html {
 
     padding: 5rem;
     position: relative;
+  }
+  .MyWorkPage .exp-section {
+    padding: 0 2rem;
   }
 
   .MyWorkPage .page-title-div {
@@ -52,7 +67,7 @@ html {
   }
   .MyWorkPage .work-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: fit-content;
     column-gap: 7rem;
     row-gap: 5rem;
@@ -61,7 +76,7 @@ html {
   }
   .MyWorkPage .work-section .work-card-container {
     box-shadow: 0rem 2rem 5rem -1rem rgba(0, 0, 0, 0.05);
-    width: 60rem;
+    /* width: 0rem; */
     max-height: fit-content;
     border: 2px solid #32323227;
     border-radius: 2rem;
@@ -165,7 +180,20 @@ html {
     padding: 5rem;
     position: relative;
   }
-
+  .MyWorkPage .exp-section p {
+    font-size: 2.2rem;
+    text-align: justify;
+    padding-top: 1rem;
+  }
+  .MyWorkPage .exp-section h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  .MyWorkPage .exp-section h3 {
+    font-size: 2.6rem;
+    letter-spacing: 1.5px;
+    color: var(--secondary);
+  }
   .MyWorkPage .page-title-div {
     width: 100%;
     display: flex;
