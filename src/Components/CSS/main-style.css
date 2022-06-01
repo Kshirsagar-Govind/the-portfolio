@@ -62,3 +62,7 @@ a:visited {
   text-decoration: none;
   color: var(--pure);
 }
+.arrow-btn:hover {
+  background-color: var(--secondary);
+  border-radius: 2rem;
+}

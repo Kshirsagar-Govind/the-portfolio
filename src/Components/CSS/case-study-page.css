@@ -1,3 +1,9 @@
+:root {
+  --primary: #00b4d8;
+  --secondary: #323232;
+  --pure: #ffffff;
+}
+
 .CaseStudyPage {
   /* border: 2px solid; */
   /* display: flex; */
@@ -28,6 +34,18 @@
 
 .case-study-para p {
   font-size: 1.5rem;
+}
+.case-study-para button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary);
+  text-decoration: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.case-study-para button:hover {
+  background-color: rgb(231, 231, 231);
 }
 .case-study-para .case-study-section span {
   background-color: var(--primary);

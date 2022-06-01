@@ -15,19 +15,7 @@ html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
 }
-.MyWorkPage .exp-section p {
-  font-size: 1.4rem;
-  text-align: justify;
-  padding-top: 1rem;
-}
-.MyWorkPage .exp-section h4 {
-  font-size: 1.2rem;
-}
-.MyWorkPage .exp-section h3 {
-  font-size: 1.6rem;
-  letter-spacing: 1.5px;
-  color: var(--secondary);
-}
+
 @media (min-width: 769px) and (max-width: 1024px) {
   html {
     font-size: 40.5%;
@@ -41,6 +29,22 @@ html {
     padding: 5rem;
     position: relative;
   }
+
+  .MyWorkPage .exp-section p {
+    font-size: 1.6rem;
+    text-align: justify;
+    padding-top: 1rem;
+  }
+  .MyWorkPage .exp-section h4 {
+    font-size: 1.4rem;
+  }
+  .MyWorkPage .exp-section h3 {
+    font-size: 2.0rem;
+    letter-spacing: 1.5px;
+    color: var(--secondary);
+    font-weight: 500;
+  }
+
   .MyWorkPage .exp-section {
     padding: 0 2rem;
   }

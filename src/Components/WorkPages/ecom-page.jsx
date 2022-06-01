@@ -77,6 +77,14 @@ function EcomPage() {
             and that's what my project is - NoteItDown. So You can wite notes,
             you can add your expenses and your tasks. All at one place.
           </p>
+          <button
+            onClick={() => {
+              window.open("https://ecommerce-site-psi.vercel.app");
+            }}
+          >
+            See Website
+          </button>
+          <a href="https://ecommerce-site-psi.vercel.app/">See Website</a>
         </div>
 
         <SSAlbum images={images} />

@@ -13,7 +13,7 @@ const SSAlbum = ({ images }) => {
   return (
     <div className="showcase-div">
       <div className="ss-div just-space">
-        <span onClick={() => prev()}>
+        <span className="arrow-btn" onClick={() => prev()}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-chevron-left"
@@ -32,7 +32,7 @@ const SSAlbum = ({ images }) => {
         </span>
 
         <img src={images[curr_img_index].img} alt="" />
-        <span onClick={() => next()}>
+        <span className="arrow-btn" onClick={() => next()}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-chevron-right"
