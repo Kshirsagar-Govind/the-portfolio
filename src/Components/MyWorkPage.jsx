@@ -29,7 +29,7 @@ function MyWork() {
       <div className="page-title-div">
         <div className="vr-line" />
         <h1>
-          My
+          Personal
           <span className="prim-color"> Projects</span>
         </h1>
       </div>

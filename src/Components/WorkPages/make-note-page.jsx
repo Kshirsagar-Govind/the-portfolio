@@ -68,6 +68,13 @@ function MakeNotePage() {
             and that's what my project is - NoteItDown. So You can wite notes,
             you can add your expenses and your tasks. All at one place.
           </p>
+          <button
+            onClick={() => {
+              window.open("https://make-note.vercel.app/");
+            }}
+          >
+            See Website
+          </button>
         </div>
 
         <SSAlbum images={images} />

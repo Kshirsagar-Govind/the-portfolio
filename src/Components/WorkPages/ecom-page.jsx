@@ -84,7 +84,6 @@ function EcomPage() {
           >
             See Website
           </button>
-          <a href="https://ecommerce-site-psi.vercel.app/">See Website</a>
         </div>
 
         <SSAlbum images={images} />
