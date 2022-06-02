@@ -17,18 +17,21 @@ function ExperiencePage() {
         <h3>HACK-X Security, Pune</h3>
         <h4>May 2021 - Present </h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          animi placeat repudiandae doloribus fugit reprehenderit maiores
-          quisquam eligendi. Qui doloribus quibusdam ex sunt. Rerum ipsam
-          adipisci unde earum, ullam ipsum. Quaerat impedit similique maxime
-          qui? Magni possimus necessitatibus repellat! Necessitatibus velit
-          aperiam voluptas sed pariatur nobis, libero voluptatibus voluptatum
-          laborum nesciunt ipsum qui. Sequi officiis non velit quisquam aut.
-          Atque enim possimus quo in nostrum quis consectetur tempora. Molestias
-          tenetur rem minus repudiandae optio doloremque commodi veritatis sed
-          quia placeat blanditiis sequi omnis quibusdam aperiam reiciendis,
-          asperiores pariatur perspiciatis incidunt eligendi magni tempore,
-          consequuntur quis molestiae natus? Iure, veniam animi.
+          I am working here as Software Developer, just before final exams I got
+          job in HACK-X Security startup. So, I am here from May 2021 in this
+          company, I am having the responsibilities of developing and designing
+          the websites and web applications. Specifically we are using MERN
+          stack for development. <br />
+          My Work includes: <br /> <br />
+          <u style={{ textDecoration: "none" }}>
+            <li>Deploying websites and web apps to AWS.</li>
+
+            <li>Applying react-redux and socket for realtime data changes.</li>
+
+            <li>Creating reusable React components.</li>
+
+            <li>Designing better UX/UI designs in figma.</li>
+          </u>
         </p>
       </div>
     </div>
