@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import "../CSS/main-style.css";
 import "../CSS/comps-styles.css";
 import "../CSS/case-study-page.css";
-
-import MakeNoteSS from "../Assets/WorkSS/Dashboard.png";
-import AllNotes from "../Assets/WorkSS/All Notes.png";
-import Expense from "../Assets/WorkSS/Expenses.png";
+import ReactLogo from "../Assets/React_logo.png";
+import NodeLogo from "../Assets/node_js_logo.png";
+import ReduxLogo from "../Assets/Redux_logo.png";
+import CSSLogo from "../Assets/sass_logo.png";
+import MongoDB from "../Assets/MongoDB_logo.png";
 
 import Home from "../Assets/WorkSS/ecom_home.png";
 import Cart from "../Assets/WorkSS/ecom_cart.png";
@@ -91,18 +92,31 @@ function EcomPage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>Technologies Used</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>
               Medium scaled web app, I used MERN stack for this app. Some charts
               apis like graph and pie chart.
               <ul>
-                <li>REACT for frontend</li>
+                <li>
+                  <img src={ReactLogo} alt="" />
+                </li>
 
-                <li>Node for backend.</li>
+                <li>
+                  <img src={NodeLogo} alt="" />{" "}
+                </li>
 
-                <li>React-Redux JS</li>
-                <li>SCSS</li>
+                <li>
+                  <img src={ReduxLogo} alt="" />{" "}
+                </li>
+                <li>
+                  <img src={CSSLogo} alt="" />{" "}
+                </li>
+
+                <li>
+                  <img src={MongoDB} alt="" />{" "}
+                </li>
               </ul>
             </p>
           </div>
@@ -111,6 +125,7 @@ function EcomPage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>Use Case</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>
@@ -127,6 +142,7 @@ function EcomPage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>Challenges Faced</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>-</p>
@@ -135,15 +151,16 @@ function EcomPage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>New Learnings</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>
-              <ul>
+              <span>
                 <li>Updating and deleting deeply nested objects in mongodb.</li>
 
                 <li>Creating Popups with props.</li>
                 <li>And lots of miner changes I learnt in this project.</li>
-              </ul>
+              </span>
             </p>
           </div>
         </div>

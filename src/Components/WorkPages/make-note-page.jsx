@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import "../CSS/main-style.css";
 import "../CSS/comps-styles.css";
 import "../CSS/case-study-page.css";
+import MongoDB from "../Assets/MongoDB_logo.png";
 
-import MakeNoteSS from "../Assets/WorkSS/Dashboard.png";
-import AllNotes from "../Assets/WorkSS/All Notes.png";
-import Expense from "../Assets/WorkSS/Expenses.png";
+import ReactLogo from "../Assets/React_logo.png";
+import NodeLogo from "../Assets/node_js_logo.png";
+import ReduxLogo from "../Assets/Redux_logo.png";
+import CSSLogo from "../Assets/sass_logo.png";
 import Note from "../Assets/WorkSS/note.png";
 import Note_dash from "../Assets/WorkSS/note_dash.png";
 
@@ -75,6 +77,15 @@ function MakeNotePage() {
           >
             See Website
           </button>
+
+          <button
+            style={{ marginLeft: "10px" }}
+            onClick={() => {
+              window.open("https://make-note.vercel.app/");
+            }}
+          >
+            Git Repo
+          </button>
         </div>
 
         <SSAlbum images={images} />
@@ -82,17 +93,30 @@ function MakeNotePage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>Technologies Used</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>
               Medium scaled web app, I used MERN stack for this app. Some charts
               apis like graph and pie chart.
               <ul>
-                <li>REACT JS</li>
+                <li>
+                  <img src={ReactLogo} alt="" />
+                </li>
 
-                <li>Node JS</li>
+                <li>
+                  <img src={NodeLogo} alt="" />{" "}
+                </li>
 
-                <li>React-Redux JS</li>
+                <li>
+                  <img src={ReduxLogo} alt="" />{" "}
+                </li>
+                <li>
+                  <img src={CSSLogo} alt="" />{" "}
+                </li>
+                <li>
+                  <img src={MongoDB} alt="" />{" "}
+                </li>
               </ul>
             </p>
           </div>
@@ -101,17 +125,18 @@ function MakeNotePage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>Use Case</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>
               For me this was project for my skill testing. But as user it ahs
               quite good uses like
-              <ul>
+              <span>
                 <li>Adding Tasks</li>
                 <li>Adding Passwords</li>
                 <li>Adding Notes</li>
                 <li>Adding Expenses</li>
-              </ul>
+              </span>
               Additional Features for user I took inspiration from google keep,
               where user can add tasks and can give different colors to that
               tasks. So in this project I have implemented that functionality
@@ -123,6 +148,7 @@ function MakeNotePage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>Challenges Faced</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>
@@ -136,6 +162,7 @@ function MakeNotePage() {
         <div className="case-stidy-detail">
           <div className="c-header">
             <h2>New Learnings</h2>
+            <span className="c-hr" />
           </div>
           <div className="c-info">
             <p>
