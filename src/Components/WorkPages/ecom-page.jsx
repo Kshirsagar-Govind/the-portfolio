@@ -18,17 +18,23 @@ function EcomPage() {
   const [ images, _setImages ] = useState([
     {
       img: Home,
-      details: "lorem1",
+      title: "Home Page",
+      details: `Visitors can see all the products here.`,
     },
 
     {
       img: Cart,
-      details: "lorem2",
+      title: "Cart",
+      details: `User can add products to cart and then all those can viewed here. 
+      User can directly buy respective product from here and also he can remove it from this list.`,
     },
 
     {
       img: Item,
-      details: "lorem3",
+      title: "Product View",
+      details: `Complete Detailed Information about the product, including reviews and ratings. From here user can give review and rating for the product
+      and can also add to cart or wish list and can purchase the product directly.
+      `,
     },
   ]);
   // useEffect = (() => {}, [ curr_img_index ]);
@@ -84,6 +90,17 @@ function EcomPage() {
             }}
           >
             See Website
+          </button>
+
+          <button
+            style={{ marginLeft: "10px" }}
+            onClick={() => {
+              window.open(
+                "https://github.com/Kshirsagar-Govind/ecommerce-site"
+              );
+            }}
+          >
+            Git Repo
           </button>
         </div>
 

@@ -51,7 +51,7 @@ const SSAlbum = ({ images }) => {
         </span>
       </div>
       <div className="ss-details">
-        <h1>Dashboard</h1>
+        <h1>{images[curr_img_index].title}</h1>
         <p>{images[curr_img_index].details}</p>
       </div>
     </div>

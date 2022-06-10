@@ -19,25 +19,34 @@ function NoteItDownPage() {
   const [ images, _setImages ] = useState([
     {
       img: MakeNoteSS,
-      details: "lorem1",
+      title: "Dashboard",
+      details: `This is dashboard of the application,
+      here user can see expense of current month in grpah chart
+      and some other details in different charts.
+      `,
     },
 
     {
       img: AllNotes,
-      details: "lorem2",
+      title: "All Notes",
+      details: `Here User can add new notes, and can see previously added notes.`,
     },
     {
       img: Tasks,
-      details: "lorem5",
+      title: "Tasks",
+      details: `In this tab user can add tasks, and can tick the tasks which are completed .`,
     },
     {
       img: Expense,
-      details: "lorem3",
+      title: "Expense",
+      details: `In thi expenses tab, user can see his expeditures. And obviously he can add more expenses.
+      And from on the dashboard he can see overview of this expense.`,
     },
 
     {
       img: Password,
-      details: "lorem4",
+      title: "Password",
+      details: `So here user can save he's passwords. And can edit his password if needed.`,
     },
   ]);
   // useEffect = (() => {}, [ curr_img_index ]);
@@ -94,6 +103,16 @@ function NoteItDownPage() {
             }}
           >
             See Website
+          </button>
+          <button
+            style={{ marginLeft: "10px" }}
+            onClick={() => {
+              window.open(
+                "https://github.com/Kshirsagar-Govind/note-it-down-project"
+              );
+            }}
+          >
+            Git Repo
           </button>
         </div>
 

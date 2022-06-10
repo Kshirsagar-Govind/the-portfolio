@@ -16,11 +16,13 @@ function MakeNotePage() {
   const [ images, _setImages ] = useState([
     {
       img: Note_dash,
-      details: "lorem2",
+      title: "Dashboard",
+      details: `Simple dashboard, consisting of multiple notes which are created by user. And new notes can be added, and old notes can be edited.`,
     },
     {
       img: Note,
-      details: "lorem1",
+      title: "Notes",
+      details: `View when user opens a note, here he can continue he's note writing and can rename or edit note.`,
     },
   ]);
   // useEffect = (() => {}, [ curr_img_index ]);
@@ -81,7 +83,7 @@ function MakeNotePage() {
           <button
             style={{ marginLeft: "10px" }}
             onClick={() => {
-              window.open("https://make-note.vercel.app/");
+              window.open("https://github.com/Kshirsagar-Govind/make-note-app");
             }}
           >
             Git Repo
