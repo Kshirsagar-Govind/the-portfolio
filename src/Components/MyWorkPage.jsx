@@ -122,7 +122,9 @@ function MyWork() {
           </div>
           <div className="hr-line" />
           <div className="resume-btn">
-            <button onClick={() => newTabLink(1)}>RESUME</button>
+            <button style={{ cursor: "pointer" }} onClick={() => newTabLink(1)}>
+              RESUME
+            </button>
           </div>
         </div>
       </div>

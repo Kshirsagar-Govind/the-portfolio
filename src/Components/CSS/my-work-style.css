@@ -83,6 +83,7 @@ html {
     /* width: 0rem; */
     max-height: fit-content;
     border: 2px solid #32323227;
+
     border-radius: 2rem;
     z-index: 20;
     padding: 3rem;
@@ -228,7 +229,7 @@ html {
   .work-section .work-card-container {
     box-shadow: 0rem 2rem 5rem -1rem rgba(0, 0, 0, 0.05);
     width: 65rem;
-    height: 48rem;
+    height: 40rem;
     border: 2px solid #32323227;
     border-radius: 2rem;
     z-index: 20;
