@@ -178,7 +178,13 @@ function MainPage() {
           data-aos-once="true"
         >
           <div className="title-part">
-            <h4>I am Govind Kshirsagar,</h4>
+            <h4>
+              I am{" "}
+              <span style={{ fontWeight: "500", textTransform: "uppercase" }}>
+                {" "}
+                Govind Kshirsagar
+              </span>,
+            </h4>
             <h1>
               UI/UX <span className="prim-color">DESIGN</span>ER
               <br />
