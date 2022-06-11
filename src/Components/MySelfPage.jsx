@@ -1,10 +1,14 @@
-import React, { Component, useState } from "react";
+import React, { Component, useEffect, useState } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import "./CSS/my-self-style.css";
 import Self from "./Assets/self.gif";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function MySelf() {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  });
   return (
     <div className="MySelfPage">
       <div className="page-title-div">
@@ -15,7 +19,7 @@ function MySelf() {
         </h1>
       </div>
 
-      <div className="my-self-section">
+      <div className="my-self-section" data-aos-once="true" data-aos="fade-up">
         <div>
           <img src={Self} />
         </div>

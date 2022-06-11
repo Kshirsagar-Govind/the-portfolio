@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import "./CSS/my-work-style.css";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Git from "./Assets/WorkSS/git.png";
 import Linkedin from "./Assets/WorkSS/linkedin.png";
 import Medium from "./Assets/WorkSS/medium.png";
+import { useEffect } from "react";
 
 function MyWork() {
   const [ showWork, _setShowWork ] = useState();
@@ -24,6 +26,11 @@ function MyWork() {
           : valu == 3 ? medium_url : valu == 4 ? linkedin_url : resume_url;
     window.open(url, "_blank");
   };
+
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  });
+
   return (
     <div className="MyWorkPage">
       <div className="page-title-div">
@@ -35,29 +42,11 @@ function MyWork() {
       </div>
       <div className="make-it-centered">
         <div className="work-section">
-          {/* <div className="work-card-container">
-            <span>
-              <h1>HACK-X Node</h1>
-              <p>
-                What is the last time when you have tested your digital assets
-                like website or your web apps? So, When I was in HACK-X Security
-                I have developed this security assessment product. Which helps
-                you to keep your digital assets healthy and it is actually very
-                big and complex product. But I was able to complete it alone.
-              </p>
-            </span>
-            <div className="show-work">
-              <span>
-                <a
-                  className="work-btn text-no-style"
-                  href="/project-hack-x-node"
-                >
-                  Case Study
-                </a>
-              </span>
-            </div>
-          </div> */}
-          <div className="work-card-container">
+          <div
+            className="work-card-container"
+            data-aos-once="true"
+            data-aos="fade-up"
+          >
             <span>
               <h1>Note It Down</h1>
               <p>
@@ -80,7 +69,11 @@ function MyWork() {
             </div>
           </div>
 
-          <div className="work-card-container">
+          <div
+            className="work-card-container"
+            data-aos-once="true"
+            data-aos="fade-up"
+          >
             <span>
               <h1>Make Note</h1>
               <p>
@@ -100,7 +93,11 @@ function MyWork() {
             </div>
           </div>
 
-          <div className="work-card-container">
+          <div
+            className="work-card-container"
+            data-aos-once="true"
+            data-aos="fade-up"
+          >
             <span>
               <h1>eCommerce Website</h1>
               <p>

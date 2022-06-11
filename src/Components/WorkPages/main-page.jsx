@@ -7,6 +7,8 @@ import MyWork from "../MyWorkPage";
 import NoteItDownPage from "./note-it-down-page";
 import Illustration from "../Assets/coder.gif";
 import ExperiencePage from "../ExperiencePage";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function MainPage() {
   const [ menu, set_menu ] = useState(true);
   const [ shadow, set_shadow ] = useState(true);
@@ -14,6 +16,7 @@ function MainPage() {
 
   useEffect(
     () => {
+      Aos.init({ duration: 2000 });
       window.addEventListener("scroll", e => handleNavigation(e));
 
       return () => {
@@ -168,7 +171,12 @@ function MainPage() {
           </div>
         </div>
 
-        <div id="home" className="hero-section">
+        <div
+          id="home"
+          className="hero-section"
+          data-aos="fade-up"
+          data-aos-once="true"
+        >
           <div className="title-part">
             <h4>I am Govind Kshirsagar,</h4>
             <h1>

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 :root {
   --primary: #00b4d8;
-  --secondary: #323232;
-  --pure: #ffffff;
+  /* --secondary: #323232;
+  --pure: #ffffff; */
+
+  --pure: #323232;
+  --secondary: #ffffff;
 }
 
 * {
@@ -14,6 +17,7 @@
 html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 .d-flex {
   display: flex;

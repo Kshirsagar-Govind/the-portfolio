@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 :root {
   --primary: #00b4d8;
+
   --secondary: #323232;
   --pure: #ffffff;
+
+  /* --pure: #323232;
+  --secondary: #ffffff; */
 }
 
 * {
@@ -139,9 +143,6 @@ html {
   content: ", Let's Talk";
 }
 
-.hero-section .illustration-part {
-  /* border: 2px solid; */
-}
 .hero-section .illustration-part img {
   width: 50rem;
   height: 40rem;

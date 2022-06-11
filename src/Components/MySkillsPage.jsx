@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import "./CSS/skills-page-style.css";
@@ -14,8 +14,12 @@ import ReactLogo from "./Assets/React_logo.png";
 import ReduxLogo from "./Assets/Redux_logo.png";
 import SocketLogo from "./Assets/socket_logo.png";
 import CPPLogo from "./Assets/c++_icon.png";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function MySkills() {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  });
   return (
     <div id="skills" className="MySkillsPage">
       <div className="page-title-div">
@@ -25,7 +29,7 @@ function MySkills() {
           <span className="prim-color"> Skills</span>
         </h1>
       </div>
-      <div className="skill-section">
+      <div className="skill-section" data-aos="fade-up" data-aos-once="true">
         <div className="skills-part-1">
           <div className="skill-1-wrapper">
             <div className="s-1-circle">

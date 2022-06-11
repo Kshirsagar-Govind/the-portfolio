@@ -1,9 +1,14 @@
-import React, { Component, useState } from "react";
+import React, { Component, useEffect, useState } from "react";
 import "./CSS/main-style.css";
 import "./CSS/comps-styles.css";
 import "./CSS/my-self-style.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function ExperiencePage() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
     <div className="MyWorkPage">
       <div className="page-title-div">
@@ -13,7 +18,7 @@ function ExperiencePage() {
           <span className="prim-color"> Experience</span>
         </h1>
       </div>
-      <div className="exp-section">
+      <div className="exp-section" data-aos="fade-in" data-aos-once="true">
         <h3>HACK-X Security, Pune</h3>
         <h4>May 2021 - Present </h4>
         <p>
