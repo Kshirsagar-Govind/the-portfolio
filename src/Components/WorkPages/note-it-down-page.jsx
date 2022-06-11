@@ -84,9 +84,6 @@ function NoteItDownPage() {
             </svg>
           </button>
 
-          {/* <a href="/">
-           
-          </a> */}
           <h1>Note It Down</h1>
         </div>
         <div className="case-study-para">

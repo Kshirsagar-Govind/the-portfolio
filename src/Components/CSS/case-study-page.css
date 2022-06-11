@@ -111,7 +111,7 @@
   justify-content: start;
 }
 .c-header > h2 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   color: var(--secondary);
   font-weight: 400;
   margin-bottom: 5px;
@@ -145,7 +145,7 @@
   }
 
   .case-study-para p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-align: justify;
   }
   .showcase-div {
@@ -162,6 +162,7 @@
   }
   .case-stidy-detail > .c-info > p {
     text-align: justify;
+    font-size: 2.5rem;
   }
   .case-stidy-detail > .c-info > p > ul > li {
     width: 6rem;
