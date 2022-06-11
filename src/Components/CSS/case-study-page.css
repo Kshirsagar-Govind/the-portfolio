@@ -75,7 +75,10 @@
   padding: 10rem 3rem;
 }
 .showcase-div .ss-details p {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+}
+.showcase-div .ss-details h1 {
+  font-size: 2.8rem;
 }
 .case-stidy-detail {
   padding: 2rem 10rem;
