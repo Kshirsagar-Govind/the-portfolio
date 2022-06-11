@@ -29,7 +29,7 @@
 
 .my-self-section {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   gap: 2rem;
 }
 .my-self-section div img {

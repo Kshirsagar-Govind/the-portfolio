@@ -5,6 +5,16 @@
   position: relative;
   /* padding-top: 25rem; */
 }
+.get-in-touct-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.get-in-touct-section img {
+  width: 40%;
+  /* border: 2px solid; */
+}
 
 .MySelfPage .page-title-div h1 {
   font-size: 3rem;
@@ -87,7 +97,15 @@ label {
     padding: 5rem;
     position: relative;
   }
-
+  .get-in-touct-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .get-in-touct-section img {
+    width: 40%;
+    display: none;
+  }
   .MySelfPage form {
     display: flex;
     justify-content: center;
