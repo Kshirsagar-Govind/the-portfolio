@@ -79,10 +79,10 @@ function EcomPage() {
         </div>
         <div className="case-study-para">
           <p>
-            Most of the time, I work on some ideas and get into some important
-            issues or solutions but I need to note all this things somewhere,
-            and that's what my project is - NoteItDown. So You can wite notes,
-            you can add your expenses and your tasks. All at one place.
+            To learn and practice advance functionalities in MERN stack, I have
+            created this ecommerce website, where user can see different
+            electronics product and can do various things on the website related
+            to product.
           </p>
           <button
             onClick={() => {

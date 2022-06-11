@@ -91,10 +91,9 @@ function NoteItDownPage() {
         </div>
         <div className="case-study-para">
           <p>
-            Most of the time, I work on some ideas and get into some important
-            issues or solutions but I need to note all this things somewhere,
-            and that's what my project is - NoteItDown. So You can wite notes,
-            you can add your expenses and your tasks. All at one place.
+            We have lot's of things to note in everyday, so simple application I
+            made in react where we can add notes, expense, save password and can
+            add tasks.
           </p>
 
           <button

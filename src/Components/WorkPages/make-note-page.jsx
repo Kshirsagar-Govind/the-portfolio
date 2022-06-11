@@ -69,8 +69,8 @@ function MakeNotePage() {
           <p>
             Most of the time, I work on some ideas and get into some important
             issues or solutions but I need to note all this things somewhere,
-            and that's what my project is - NoteItDown. So You can wite notes,
-            you can add your expenses and your tasks. All at one place.
+            and that's what my project is - Make Not. This is similar to Note It
+            Down project to the some extent.
           </p>
           <button
             onClick={() => {

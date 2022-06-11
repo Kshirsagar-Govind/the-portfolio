@@ -50,11 +50,9 @@ function MyWork() {
             <span>
               <h1>Note It Down</h1>
               <p>
-                Most of the time, I work on some ideas and get into some
-                important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
+                We have lot's of things to note in everyday, so simple
+                application I made in react where we can add notes, expense,
+                save password and can add tasks.
               </p>
             </span>
             <div className="show-work">
@@ -79,9 +77,8 @@ function MyWork() {
               <p>
                 Most of the time, I work on some ideas and get into some
                 important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
+                somewhere, and that's what my project is - Make Not. This is
+                similar to Note It Down project to the some extent.
               </p>
             </span>
             <div className="show-work">
@@ -101,11 +98,10 @@ function MyWork() {
             <span>
               <h1>eCommerce Website</h1>
               <p>
-                Most of the time, I work on some ideas and get into some
-                important issues or solutions but I need to note all this things
-                somewhere, and that's what my project is - NoteItDown. So You
-                can wite notes, you can add your expenses and your tasks. All at
-                one place.
+                To learn and practice advance functionalities in MERN stack, I
+                have created this ecommerce website, where user can see
+                different electronics product and can do various things on the
+                website related to product.
               </p>
             </span>
             <div className="show-work">
