@@ -20,6 +20,9 @@
     transform: translateX(0%);
   }
 }
+.case-study-header {
+  background-color: var(--primary);
+}
 .case-study-header,
 .case-study-para {
   padding: 2rem 10rem;
@@ -27,6 +30,7 @@
 .case-study-header h1 {
   font-weight: 500;
   font-size: 3.5rem;
+  color: var(--pure);
 }
 .case-study-para .case-study-section {
   display: flex;

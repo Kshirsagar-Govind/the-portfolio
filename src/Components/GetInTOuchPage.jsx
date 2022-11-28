@@ -53,7 +53,7 @@ function GetInTouch() {
           <div className="make-it-centered">
             {/* <input className="submit-button" type="submit" value="Submit" /> */}
             <button className="submit-button" onClick={() => sendMail()}>
-              Talk
+              Start The Conversation
             </button>
           </div>
         </div>
