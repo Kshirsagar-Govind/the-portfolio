@@ -19,15 +19,15 @@ function ExperiencePage() {
         </h1>
       </div>
       <div className="exp-section" data-aos="fade-in" data-aos-once="true">
-        <h3>HACK-X Security, Pune</h3>
+        <h3>⦾ HACK-X Security, Pune</h3>
         <h4>May 2021 - November 2022</h4>
         <p>
           I am working here as a Software Developer. Just before final exams, I
           got a job at HACK-X Security startup. So, I am here from May 2021 at
           this company. <br /> I have the responsibility of developing and
           designing the websites and web applications. Specifically, we are
-          using MERN stack for development. <br />
-          My work includes:<br /> <br />
+          using MERN stack for development. <br /> <br />
+          My work includes:<br />
           <u style={{ textDecoration: "none" }}>
             <li>Deploying websites and web apps to AWS.</li>
 
@@ -36,6 +36,23 @@ function ExperiencePage() {
             <li>Creating reusable or efficient React components.</li>
 
             <li>Designing better UX/UI designs.</li>
+          </u>
+        </p>
+      </div>
+      <br />
+      <br />
+      <div className="exp-section" data-aos="fade-in" data-aos-once="true">
+        <h3>⦾ medtigo, Pune</h3>
+        <h4>Dec 2021 - Present</h4>
+        <p>
+          I am working here as a MERN stack Developer. <br /> I have the
+          responsibility of developing and designing the websites and web
+          applications <br />
+          <br />
+          My work includes:<br />
+          <u style={{ textDecoration: "none" }}>
+            <li>Maintaining The web applicatio and websites.</li>
+            <li>Creating reusable or efficient React components.</li>
           </u>
         </p>
       </div>
