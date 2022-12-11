@@ -22,7 +22,7 @@ function ExperiencePage() {
         <h3>⦾ HACK-X Security, Pune</h3>
         <h4>May 2021 - November 2022</h4>
         <p>
-          I worked there as a Software Developer from May 2021. <br /> I had the
+          I worked there as a Software Developer. <br /> I had the
           responsibilities of developing and designing the websites and web
           applications. Specifically, we were using MERN stack for the
           development. <br /> <br />
