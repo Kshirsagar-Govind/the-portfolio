@@ -23,10 +23,10 @@ function ExperiencePage() {
         <h4>May 2021 - November 2022</h4>
         <p>
           I am working here as a Software Developer. Just before final exams, I
-          got a job at HACK-X Security startup. So, I am here from May 2021 at
-          this company. <br /> I have the responsibility of developing and
-          designing the websites and web applications. Specifically, we are
-          using MERN stack for development. <br /> <br />
+          got a job at HACK-X Security startup. I was there from May 2021.{" "}
+          <br /> I have the responsibility of developing and designing the
+          websites and web applications. Specifically, we are using MERN stack
+          for development. <br /> <br />
           My work includes:<br />
           <u style={{ textDecoration: "none" }}>
             <li>Deploying websites and web apps to AWS.</li>
