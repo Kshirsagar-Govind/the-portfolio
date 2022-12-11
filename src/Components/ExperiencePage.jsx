@@ -43,7 +43,7 @@ function ExperiencePage() {
       <br />
       <div className="exp-section" data-aos="fade-in" data-aos-once="true">
         <h3>⦾ medtigo, Pune</h3>
-        <h4>Dec 2021 - Present</h4>
+        <h4>Dec 2022 - Present</h4>
         <p>
           I am working here as a MERN stack Developer. <br /> I have the
           responsibility of developing and designing the websites and web
