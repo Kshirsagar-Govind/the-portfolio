@@ -19,6 +19,21 @@ function ExperiencePage() {
         </h1>
       </div>
       <div className="exp-section" data-aos="fade-in" data-aos-once="true">
+        <h3>⦾ medtigo, Pune</h3>
+        <h4>Dec 2022 - Present</h4>
+        <p>
+          I am working here as a MERN stack Developer. <br />
+          <br />
+          My work includes:<br />
+          <u style={{ textDecoration: "none" }}>
+            <li>Maintaining The web applicatio and websites.</li>
+            <li>Creating reusable or efficient React components.</li>
+          </u>
+        </p>
+      </div>
+      <br />
+      <br />
+      <div className="exp-section" data-aos="fade-in" data-aos-once="true">
         <h3>⦾ HACK-X Security, Pune</h3>
         <h4>May 2021 - November 2022</h4>
         <p>
@@ -35,21 +50,7 @@ function ExperiencePage() {
           </u>
         </p>
       </div>
-      <br />
-      <br />
-      <div className="exp-section" data-aos="fade-in" data-aos-once="true">
-        <h3>⦾ medtigo, Pune</h3>
-        <h4>Dec 2022 - Present</h4>
-        <p>
-          I am working here as a MERN stack Developer. <br />
-          <br />
-          My work includes:<br />
-          <u style={{ textDecoration: "none" }}>
-            <li>Maintaining The web applicatio and websites.</li>
-            <li>Creating reusable or efficient React components.</li>
-          </u>
-        </p>
-      </div>
+     
     </div>
   );
 }

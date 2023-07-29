@@ -12,6 +12,7 @@ import NoteItDownPage from "./Components/WorkPages/note-it-down-page";
 import HackxPage from "./Components/WorkPages/hackx-node-page";
 import MakeNotePage from "./Components/WorkPages/make-note-page";
 import EcomPage from "./Components/WorkPages/ecom-page";
+import ResumeBuilderPage from "./Components/WorkPages/resume-builder-page";
 
 
 function App() {
@@ -20,6 +21,13 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<MainPage />}>
+
+          </Route>
+
+
+          <Route
+            exact path="/project-resume-builder" element={<ResumeBuilderPage />}
+          >
 
           </Route>
 

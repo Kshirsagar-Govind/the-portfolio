@@ -10,9 +10,9 @@ import Medium from "./Assets/WorkSS/medium.png";
 import { useEffect } from "react";
 
 function MyWork() {
-  const [ showWork, _setShowWork ] = useState();
-  const [ curr_index, _setCurr_index ] = useState(0);
-  const newTabLink = valu => {
+  const [showWork, _setShowWork] = useState();
+  const [curr_index, _setCurr_index] = useState(0);
+  const newTabLink = (valu) => {
     const linkedin_url = "https://www.linkedin.com/in/govind-kshirsagar";
     const git_url = "https://github.com/Kshirsagar-Govind";
     const medium_url = "https://medium.com/@kshirsagar.govind";
@@ -22,8 +22,12 @@ function MyWork() {
       valu == 1
         ? resume_url
         : valu == 2
-          ? git_url
-          : valu == 3 ? medium_url : valu == 4 ? linkedin_url : resume_url;
+        ? git_url
+        : valu == 3
+        ? medium_url
+        : valu == 4
+        ? linkedin_url
+        : resume_url;
     window.open(url, "_blank");
   };
 
@@ -42,6 +46,56 @@ function MyWork() {
       </div>
       <div className="make-it-centered">
         <div className="work-section">
+          <div
+            className="work-card-container"
+            data-aos-once="true"
+            data-aos="fade-up"
+          >
+            <span>
+              <h1>Resume Builder</h1>
+              <p>
+                Lots of time we try to make our resume more interesting but end
+                up just thinking about design, and lasltly we drop our creative
+                ideas and keep it very simple way. But if you want to have some
+                unique design for your resume please take look at my Resume
+                Builder.
+              </p>
+            </span>
+            <div className="show-work">
+              <span>
+                <a
+                  className="work-btn text-no-style"
+                  href="/project-resume-builder"
+                >
+                  Case Study
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div
+            className="work-card-container"
+            data-aos-once="true"
+            data-aos="fade-up"
+          >
+            <span>
+              <h1>eCommerce Website</h1>
+              <p>
+                To learn and practice advance functionalities in MERN stack, I
+                have created this ecommerce website, where user can see
+                different electronics product and can do various things on the
+                website related to product.
+              </p>
+            </span>
+            <div className="show-work">
+              <span>
+                <a className="work-btn text-no-style" href="/project-ecom">
+                  Case Study
+                </a>
+              </span>
+            </div>
+          </div>
+
           <div
             className="work-card-container"
             data-aos-once="true"
@@ -84,29 +138,6 @@ function MyWork() {
             <div className="show-work">
               <span>
                 <a className="work-btn text-no-style" href="/project-make-note">
-                  Case Study
-                </a>
-              </span>
-            </div>
-          </div>
-
-          <div
-            className="work-card-container"
-            data-aos-once="true"
-            data-aos="fade-up"
-          >
-            <span>
-              <h1>eCommerce Website</h1>
-              <p>
-                To learn and practice advance functionalities in MERN stack, I
-                have created this ecommerce website, where user can see
-                different electronics product and can do various things on the
-                website related to product.
-              </p>
-            </span>
-            <div className="show-work">
-              <span>
-                <a className="work-btn text-no-style" href="/project-ecom">
                   Case Study
                 </a>
               </span>
