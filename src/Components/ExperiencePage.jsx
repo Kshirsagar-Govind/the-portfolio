@@ -19,15 +19,16 @@ function ExperiencePage() {
         </h1>
       </div>
       <div className="exp-section" data-aos="fade-in" data-aos-once="true">
-        <h3>⦾ medtigo, Pune</h3>
+        <h3>⦾ medtigo, Pune (WFH)</h3>
         <h4>Dec 2022 - Present</h4>
         <p>
           I am working here as a MERN stack Developer. <br />
           <br />
           My work includes:<br />
           <u style={{ textDecoration: "none" }}>
-            <li>Maintaining The web applicatio and websites.</li>
+            <li>Maintaining The web application and websites.</li>
             <li>Creating reusable or efficient React components.</li>
+            <li>Creating Complex APIs and DB Model Designing.</li>
           </u>
         </p>
       </div>
