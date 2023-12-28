@@ -4,7 +4,7 @@ import "./CSS/comps-styles.css";
 import "./CSS/skills-page-style.css";
 import CSSLogo from "./Assets/CSS_logo.png";
 import HTMLLogo from "./Assets/HTML_logo.png";
-import Firebase_logo from "./Assets/Firebase_logo.png";
+import NextJS_logo from "./Assets/nextjs_logo.png";
 import JavaLogo from "./Assets/Java_log.png";
 import JSLogo from "./Assets/Javascript_logo.png";
 import MongoLogo from "./Assets/MongoDB_logo.png";
@@ -138,8 +138,8 @@ const Skills2 = [
   },
 
   {
-    img: Firebase_logo,
-    text: "Firebase",
+    img: NextJS_logo,
+    text: "Next JS",
     class: "s-2-line",
   },
 ];
