@@ -106,6 +106,17 @@ const Skills2 = [
     text: "CSS",
     class: "s-2-line",
   },
+  {
+    img: NextJS_logo,
+    text: "Next JS",
+    class: "s-2-line",
+  },
+  
+  {
+    img: ReduxLogo,
+    text: "React Redux",
+    class: "s-2-line",
+  },
 
   {
     img: SocketLogo,
@@ -114,8 +125,8 @@ const Skills2 = [
   },
 
   {
-    img: ReduxLogo,
-    text: "React Redux",
+    img: SQLLogo,
+    text: "SQL",
     class: "s-2-line",
   },
 
@@ -131,15 +142,4 @@ const Skills2 = [
     class: "s-2-line",
   },
 
-  {
-    img: SQLLogo,
-    text: "SQL",
-    class: "s-2-line",
-  },
-
-  {
-    img: NextJS_logo,
-    text: "Next JS",
-    class: "s-2-line",
-  },
 ];
