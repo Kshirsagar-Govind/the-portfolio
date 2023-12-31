@@ -23,13 +23,13 @@ function FormsPage() {
     },
 
     {
-      img: Edit,
+      img: Create,
       title: "Edit Forms",
       details: `Here we can edit created forms and save them.`,
     },
 
     {
-      img: Create,
+      img: Edit,
       title: "Create Forms",
       details: `Here is the form to design form.
       `,
