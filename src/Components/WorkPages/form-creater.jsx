@@ -108,8 +108,7 @@ function FormsPage() {
           </div>
           <div className="c-info">
             <p>
-              Medium scaled web app, I used MERN stack for this app. Some charts
-              apis like graph and pie chart.
+              I used MERN stack for this app.
               <ul>
                 <li>
                   <img src={ReactLogo} alt="" />
