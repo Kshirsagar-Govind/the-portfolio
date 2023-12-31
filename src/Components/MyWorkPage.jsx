@@ -102,6 +102,26 @@ function MyWork() {
             data-aos="fade-up"
           >
             <span>
+              <h1>Form Creater</h1>
+              <p>
+                Created a form generater. Here you can design forms with different types of inputs and also edit them after saving.
+              </p>
+            </span>
+            <div className="show-work">
+              <span>
+                <a className="work-btn text-no-style" href="/project-forms">
+                  Case Study
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div
+            className="work-card-container"
+            data-aos-once="true"
+            data-aos="fade-up"
+          >
+            <span>
               <h1>Note It Down</h1>
               <p>
                 We have lot's of things to note in everyday, so simple

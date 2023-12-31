@@ -13,6 +13,7 @@ import HackxPage from "./Components/WorkPages/hackx-node-page";
 import MakeNotePage from "./Components/WorkPages/make-note-page";
 import EcomPage from "./Components/WorkPages/ecom-page";
 import ResumeBuilderPage from "./Components/WorkPages/resume-builder-page";
+import FormsPage from "./Components/WorkPages/form-creater";
 
 
 function App() {
@@ -51,6 +52,13 @@ function App() {
 
           <Route
             exact path="/project-ecom" element={<EcomPage />}
+          >
+
+          </Route>
+
+          
+          <Route
+            exact path="/project-forms" element={<FormsPage />}
           >
 
           </Route>
