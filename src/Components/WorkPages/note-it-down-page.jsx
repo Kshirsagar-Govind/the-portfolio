@@ -3,7 +3,7 @@ import "../CSS/main-style.css";
 import "../CSS/comps-styles.css";
 import "../CSS/case-study-page.css";
 
-import ReactLogo from "../Assets/React_logo.png";
+import NextLogo from "../Assets/nextjs_logo.png";
 import NodeLogo from "../Assets/node_js_logo.png";
 import ReduxLogo from "../Assets/Redux_logo.png";
 import MongoDB from "../Assets/MongoDB_logo.png";
@@ -125,7 +125,7 @@ function NoteItDownPage() {
               apis like graph and pie chart.
               <ul>
                 <li>
-                  <img src={ReactLogo} alt="" />
+                  <img src={NextLogo} alt="" />
                 </li>
 
                 <li>
