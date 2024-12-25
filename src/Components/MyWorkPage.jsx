@@ -17,7 +17,7 @@ function MyWork() {
     const git_url = "https://github.com/Kshirsagar-Govind";
     const medium_url = "https://medium.com/@kshirsagar.govind";
     const resume_url =
-      "https://drive.google.com/file/d/1vZjiCAEC8Dg0E_DKJVCX6eEkY5eO1cjy/view?usp=drive_link";
+      "https://drive.google.com/file/d/1J9bA4vv-m-AcIaPkeK3MPmhWa6u_QfNN/view?usp=drive_link";
     const url =
       valu == 1
         ? resume_url
